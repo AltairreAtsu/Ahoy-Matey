@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 853858077}
   - component: {fileID: 853858076}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Backdrop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 1363873927}
   - component: {fileID: 1363873926}
   m_Layer: 5
-  m_Name: TextMeshPro Text
+  m_Name: Presents Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -422,8 +422,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000005722, y: -0.0000076294}
-  m_SizeDelta: {x: 313.1, y: 155.2}
+  m_AnchoredPosition: {x: 0.0000011921, y: 7.68}
+  m_SizeDelta: {x: 284.3, y: 137.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363873926
 MonoBehaviour:
@@ -444,7 +444,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "Tod Atsu\n   Presents..."
+  m_text: "Tod Atsu\n  Presents..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cdff4cdaff51c004cabd1f9e71814be1, type: 2}
   m_sharedMaterial: {fileID: 21166180461293476, guid: cdff4cdaff51c004cabd1f9e71814be1,
@@ -473,10 +473,10 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 72
-  m_fontSizeBase: 74.4
+  m_fontSize: 74
+  m_fontSizeBase: 74
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 9
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_enableKerning: 1
@@ -513,9 +513,9 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1363873926}
-    characterCount: 23
+    characterCount: 22
     spriteCount: 0
-    spaceCount: 5
+    spaceCount: 4
     wordCount: 3
     linkCount: 0
     lineCount: 2
